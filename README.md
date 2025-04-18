@@ -70,4 +70,4 @@ How to run llm with web scraping with RAG Demo:
    
 5) Run the demo script by this command:
    ```
-   streamlit run inference_rag.py
+   streamlit run inference.py
