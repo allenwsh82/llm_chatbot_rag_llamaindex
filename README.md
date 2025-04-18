@@ -44,3 +44,30 @@ Now, to find the TCO delta in percentage:
 TCO delta = ((TCO savings / (50 * CapEx cost of AMD EPYC 9554)) * 100) TCO delta ≈ ((26,215/(
 26,215/(1.36 * 50))) * 100 TCO delta ≈ 62%
 Therefore, the TCO delta is approximately 62%.
+
+How to run llm with web scraping with RAG Demo:
+
+1) Clone the project:
+   ``` 
+   git clone https://github.com/allenwsh82/llm_chatbot_rag_llamaindex
+
+   ```
+   
+2) Create a new environment for this project:
+   ```
+   python -m venv rag_env
+   ```
+   
+3) Activate the environment:
+   ```
+   source rag_env/bin/activate
+   ```
+   
+4) Setup the environment with all the dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+   
+5) Run the demo script by this command:
+   ```
+   streamlit run inference_rag.py
